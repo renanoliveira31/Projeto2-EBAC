@@ -33,7 +33,7 @@ if(atividades.includes(inputNomeAtividade.value)){
 let linha = '<tr>';
 linha += `<td>${inputNomeAtividade.value}</td>`;
 linha += `<td>${inputNotaAtividade.value}</td>`;
-linha += `<td>${inputNotaAtividade.value >= notaMinima ? 'imgAprovado' : 'imgReprovado'}</td>`;
+linha += `<td>${inputNotaAtividade.value >= notaMinima ? imgAprovado : imgReprovado}</td>`;
 linha += '</tr>';
 
 linhas += linha;
